@@ -1,0 +1,37 @@
+.map-content{
+  width: 70%;
+}
+
+.map-layout {
+  display: flex;
+  /* align-items: stretch; */
+}
+
+#map {
+  width: 100%;
+  height: calc(100vh - 76px);
+  position: sticky !important;
+  top: 76px !important;
+  background-image: url("../../images/map.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+/*
+#map{
+  width: 100%;
+  background-image: url("../../images/map.JPG");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 76px);
+  position: sticky !important;
+}
+*/
+/*
+.map-layout{
+  display: flex;
+  background-color: red;
+  padding-top: 76px;
+  align-items: stretch;
+}
+*/

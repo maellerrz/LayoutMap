@@ -1,0 +1,30 @@
+.my-card{
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  margin: 10px 0px;
+}
+
+.my-card h2{
+  /* margin: 30px auto; */
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  font-weight: 500;
+}
+.paris{
+  background-image: url("../../images/paris.jpg");
+}
+.hg{
+  background-image: url("../../images/hongkong.jpg");
+}
+.sf{
+  background-image: url("../../images/sanfran.jpg");
+}
+.tokyo{
+  background-image: url("../../images/tokyo.jpg");
+}

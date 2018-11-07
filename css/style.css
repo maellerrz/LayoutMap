@@ -1,0 +1,13 @@
+@import url("components/cards.css");
+@import url("components/navbar.css");
+@import url("layouts/map.css");
+
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+#logo{
+  width: 150px;
+}
+.container{
+  padding-top: 76px;
+}
